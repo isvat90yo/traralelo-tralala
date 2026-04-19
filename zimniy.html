@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="palace.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="icon" href="img/favicon.ico">
-    <title>Строгановский дворец | Царская тропа</title>
+    <title>Зимний дворец | Царская тропа</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <nav class="nav-container">
                 <a href="index.html" class="nav-item">Главная</a>
                 <a href="index.html#palaces" class="nav-item active">Дворцы</a>
-                <a href="memo-traveler.html" class="nav-item">Памятка</a>
+                <a href="memo-traveler.html" class="nav-item">Памятка путешественнику</a>
                 <a href="testing.html" class="nav-item">Тест</a>
                 <a href="contacts.html" class="nav-item hidden-in-mobile">Контакты</a>
             </nav>
@@ -47,29 +47,28 @@
     </nav>
 
     <main>
-        <h1 class="h-palace">Строгановский дворец</h1>
+        <h1 class="h-palace">Зимний дворец</h1>
         <!-- Слайдер -->
 
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <picture>
-                        <source srcset="img/stroganovskiy/main-1.webp" type="image/webp">
-                        <img src="img/stroganovskiy/main-1.jpg" alt="Строгановский дворец - главное фото"
-                            loading="eager">
+                        <source srcset="img/zimniy/main-1.webp" type="image/webp">
+                        <img src="img/zimniy/main-1.jpg" alt="Зимний дворец - главное фото" loading="eager">
                     </picture>
                 </div>
                 <div class="swiper-slide">
                     <picture>
-                        <source srcset="img/stroganovskiy/main-2.webp" type="image/webp">
-                        <img src="img/stroganovskiy/main-2.jpg" alt="Строгановский дворец - фото сбоку" loading="eager">
+                        <source srcset="img/zimniy/main-2.webp" type="image/webp">
+                        <img src="img/zimniy/main-2.jpg" alt="Зимний дворец - фото сбоку" loading="eager">
                     </picture>
                 </div>
                 <div class="swiper-slide">
                     <picture>
-                        <source srcset="img/stroganovskiy/main-3.webp" type="image/webp">
-                        <img src="img/stroganovskiy/main-3.jpg"
-                            alt="Строгановский дворец - дополнительное фото" loading="lazy">
+                        <source srcset="img/index-photo/cards/zimniy.webp" type="image/webp">
+                        <img src="img/index-photo/cards/zimniy.jpg" alt="Зимний дворец - дополнительное фото"
+                            loading="lazy">
                     </picture>
                 </div>
             </div>
@@ -83,76 +82,98 @@
 
         <!-- Основная информация -->
         <section class="info-section">
-            <div class="decor-line" style="background-color:#D89890"></div>
+            <div class="decor-line" style="background-color: #8FD9C6;"></div>
 
             <h2 class="info-main-title">Основная информация</h2>
 
             <div class="info-cards-container">
 
                 <!-- Карточка 1 -->
-                <div class="info-card" style="background-color:#fdc0b9;">
+                <div class="info-card" style="background-color:#BAEDE5;">
                     <h3 class="info-card-title">Адрес</h3>
-                    <p class="info-card-text">Невский просп. 17,<br>Санкт-Петербург</p>
+                    <p class="info-card-text">Дворцовая площадь 2,<br>Санкт-Петербург</p>
                 </div>
 
                 <!-- Карточка 2 -->
-                <div class="info-card" style="background-color:#eea399;">
+                <div class="info-card" style="background-color:#94DED2;">
                     <h3 class="info-card-title">Годы постройки</h3>
-                    <p class="info-card-text">1753–1754</p>
+                    <p class="info-card-text">1754–1762</p>
                 </div>
 
                 <!-- Карточка 3 -->
-                <div class="info-card" style="background-color:#dd8f85;">
+                <div class="info-card" style="background-color:#6BBDB0;">
                     <h3 class="info-card-title">Стиль</h3>
-                    <p class="info-card-text">Елизаветинское барокко</p>
+                    <p class="info-card-text">Елизаветинское барокко с элементами французского рококо</p>
                 </div>
             </div>
 
             <!-- Карта -->
             <div class="map-container">
-                <script type="text/javascript" charset="utf-8" async 
-                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad83758899576adefdb6bf653d84cd3793940f839d8680e5dbc8cc50937e6b0fd&amp;width=700&amp;height=700&amp;lang=ru_RU&amp;scroll=true"></script>
+                <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adefdbcf7adf069b72fcefb8a0503294a89bd5dc6b9655a9edaea51349e60d1e5&amp;width=700&amp;height=700&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
+
+            <p class="text-palace">Зимний дворец — главный императорский дворец России, расположенный на Дворцовой
+                площади и построенный в
+                1754—1762 годах известным российским архитектором Франческо Бартоломео Растрелли в стиле елизаветинского
+                барокко с элементами французского рококо.
+            </p>
+
         </section>
 
         <!-- История строительства -->
-        <section class="history-section" style="background: #fff6f5; border: 4px solid #D89890;">
+        <section class="history-section" style="background: #f3fffd; border: 4px solid #94DED2;">
             <div class="history-container">
                 <div class="history-header">
-                    <h2 class="history-title" style="color: #a15b52;">История строительства</h2>
+                    <h2 class="history-title" style="color: #237063;">История строительства</h2>
                 </div>
 
                 <div class="history-content">
                     <div class="history-image-wrapper">
-                        <img src="img/stroganovskiy/history.jpg" alt="Строгановский дворец" class="history-image"
-                            loading="lazy">
+                        <img src="img/zimniy/history.jpg" alt="Зимний дворец" class="history-image" loading="lazy">
                     </div>
 
                     <div class="history-text">
-                        <p>Строгановский дворец был построен на основе трёх стоящих рядом зданий, выполненных в одном
-                            стиле. Для строительства дворца братья Строгановы пригласили Франческо Бартоломео Растрелли,
-                            который был известен строительством Зимнего и Воронцовского дворцов.</p>
+                        <p>Императрица Елизавета Петровна приказала построить пятый по счёту Зимний дворец, и работы
+                            были начаты
+                            в 1754 году. Однако императрица не дожила до окончания строительства и окончания работ в
+                            апреле
+                            принимал Пётр III. Екатерина II, взошедшая на престол в 1762 году после государственного
+                            переворота,
+                            отстранила от внутренних работ Ф. Б. Растрелли и назначила Ю. М. Фельтен, Ж. Б.
+                            Валлен-Деламот и А.
+                            Ринальди под руководством И. И. Бецкого.</p>
 
-                        <p>В 1787 году Андрей Никифорович Воронихин по приказу Александра Сергеевича Строганова заново
-                            отделал Малую и Большую гостиные. Также А. Н. Воронихин создал великолепный вестибюль,
-                            Физический кабинет, лестницу с мощными «пестумскими» колоннами дорического ордера,
-                            Минеральный кабинет с куполом и верхней обходной галереей.</p>
+                        <p>В 1764 году Екатерине II были переданы из Берлина 317 ценных картин общей стоимостью в 183
+                            тысячи
+                            талеров из частной коллекции живописи Иоханна Эрнста Гоцковского. Эти картины положили
+                            начало
+                            коллекции Эрмитажа. В 1767–1765 годах для них было построено специальное здание. В 1837 году
+                            в
+                            Зимнем дворце произошёл пожар, уничтоживший все интерьеры и повредивший южно-восточное
+                            крыло.
+                            Руководить восстановительными работами было поручено В. П. Стасову, А. П. Брюллову и А. Е.
+                            Штауберту, И. М. Маевскому и через год они были окончены.</p>
                     </div>
                 </div>
 
                 <div class="interesting-fact-box"
-                    style="background: linear-gradient(135deg, #ffd6d1 0%, #f1a79d 100%);">
+                    style="background: linear-gradient(135deg, #94ffdf 0%, #4adead 100%);">
                     <h3 class="fact-title">Интересный факт!</h3>
-                    <p class="fact-text">Строгановы стали самыми первыми в Санкт-Петербурге украшать свои владения
-                        сфинксами. После чего эта мода распространилась и на другие семьи.
+                    <p class="fact-text">В зимнем дворце насчитывается более 1000 комнат, а его площадь составляет 60
+                        тыс. м²
                     </p>
                 </div>
 
                 <div class="history-footer-text">
-                    <p>После революции Строгановский дворец стал музеем, но был закрыт в 1929 году. Из-за чего многие
-                        коллекции были утеряны или проданы за границу, а интерьеры дворца утратили первоначальный вид. В
-                        1988 году дворец стал филиалом Русского музея и после серьёзной реставрации в 2003 году стал
-                        доступен для посетителей.</p>
+                    <p>После Февральской революции во дворце расположилось Временное правительство. После ареста
+                        министров
+                        дворец был объявлен музеем, а оставшиеся ценности национализированы.</p>
+
+                    <p>Во время Великой Отечественной Войны в подвалах Зимнего дворца были обустроены бомбоубежища, было
+                        зафиксировано несколько прямых попаданий, но благодаря усилиям энтузиастов дворец продолжил свою
+                        работу
+                        уже осенью 1945 года.</p>
                 </div>
             </div>
         </section>
@@ -164,20 +185,20 @@
 
                 <div class="architecture-images">
                     <div class="architecture-image-item">
-                        <img src="img/stroganovskiy/architectory-1.jpeg" alt="Арабесковая гостиная"
-                            class="architecture-photo" loading="lazy">
-                        <p class="architecture-caption">Арабесковая гостиная</p>
+                        <img src="img/zimniy/architectory-1.jpg" alt="Иорданская лестница" class="architecture-photo"
+                            loading="lazy">
+                        <p class="architecture-caption">Иорданская лестница</p>
                     </div>
 
                     <div class="architecture-image-item">
-                        <img src="img/stroganovskiy/architectory-2.jpg" alt="Большой танцевальный зал"
+                        <img src="img/zimniy/architectory-2.jpg" alt="Золотая гостиная Марии Александровны"
                             class="architecture-photo" loading="lazy">
-                        <p class="architecture-caption">Большой танцевальный зал</p>
+                        <p class="architecture-caption">Золотая гостиная Марии Александровны</p>
                     </div>
                 </div>
 
                 <div class="architecture-text">
-                    <p>Строгановский дворец построили в форме замкнутого прямоугольника с просторным внутренним двором.
+                    <p>Зимний дворец построили в форме замкнутого прямоугольника с просторным внутренним двором.
                         Визуально всё
                         здание поделено на два яруса: нижний — более приземистый и верхний — воздушный и парадный.
                         Парадный вход
@@ -190,17 +211,6 @@
                         богато декорированными наличниками. Каждое лепное украшение в наружной отделке здания
                         создавалось
                         мастерами вручную.</p>
-                    <div class="interesting-fact-box"
-                        style="background: linear-gradient(135deg, #ffd6d1 0%, #f1a79d 100%); margin-top: 40px;">
-                        <h3 class="fact-title">Интересный факт!</h3>
-                        <p class="fact-text">Есть предположение, что в рельефных медальонах фасада изображён профиль А. С. Строганова. </p>
-                    </div>
-                    <p>Оба фасада дворца следуют трёхчастной схеме классицизма, но главный фасад по Невскому проспекту с
-                        проездной аркой во внутренний двор выглядит более барочным из-за мощных раскреповок, трёх
-                        овальных окон, группирования колонн и разорванного лучкового фронтона, в тимпане которого
-                        помещён герб рода Строгановых.
-                    </p>
-
                 </div>
             </div>
         </section>

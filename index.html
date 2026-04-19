@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Царская тропа | Путеводитель по дворцам Санкт-Петербурга</title>
+</head>
+
+<body>
+    <!-- Навигация -->
+    <nav>
+        <div class="top-bar">
+            <nav class="nav-container">
+                <a href="index.html" class="nav-item active">Главная</a>
+                <a href="index.html#palaces" class="nav-item">Дворцы</a>
+                <a href="memo-traveler.html" class="nav-item">Памятка</a>
+                <a href="testing.html" class="nav-item">Тест</a>
+                <a href="contacts.html" class="nav-item hidden-in-mobile">Контакты</a>
+            </nav>
+    
+            <div class="datetime">
+                <div class="datetime-text time" id="time">11:00</div>
+                <div class="datetime-text date" id="date">25.03.2026</div>
+            </div>
+
+                <button class="burger-btn" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </button>
+                
+                <ul class="menu-list">
+                    <li><a href="index.html" class="menu-item">Главная</a></li>
+                    <li><a href="index.html#palaces" class="menu-item">Дворцы</a></li>
+                    <li><a href="memo-traveler.html" class="menu-item">Памятка</a></li>
+                    <li><a href="testing.html" class="menu-item">Тест</a></li>
+                    <li><a href="contacts.html" class="menu-item">Контакты</a></li>
+                </ul>
+
+        </div>
+
+            <script src="scripts/timedate.js"></script>
+            <script src="scripts/burger-menu.js"></script>
+
+    </nav>
+
+    <!-- Герой секция -->
+    <section class="hero-section">
+        <picture>
+            <source srcset="img/index-photo/main-photo.avif" type="image/avif">
+            <source srcset="img/index-photo/main-photo.webp" type="image/webp">
+            <img src="img/index-photo/main-photo.jpg" alt="Hero background" class="hero-image" loading="eager">
+        </picture>
+        <div class="hero-content">
+            <h1 class="hero-title">Царская тропа</h1>
+            <p class="hero-subtitle">Путеводитель по дворцам <br>Санкт-Петербурга</p>
+        </div>
+    </section>
+
+
+    <main>
+        <!-- Текстовый блок с описанием -->
+        <section class="about-section">
+            <div class="about-section-text-decoration-line"></div>
+
+            <div class="about-section-text-container">
+                <p class="about-section-main-text">
+                    <span class="about-section-highlight">Санкт-Петербург</span> — невероятно многообразный город, и для
+                    каждого он свой. Он
+                    завораживает путешественников своей красотой, историей и уникальной атмосферой. В этом городе
+                    собрано
+                    невероятное количество памятников, но каждый из нас при поездке в Питер задаётся одним и тем же
+                    вопросом: что
+                    посмотреть?
+                </p>
+
+                <p class="about-section-main-text">
+                    На нашем сайте представлена программа <span class="about-section-highlight">экскурсионного
+                        маршрута</span>, рассчитанного на
+                    <span class="about-section-highlight">4–6 дней</span>. Следуя ей, вы сможете посетить все самые
+                    красивые дворцы
+                    Санкт-Петербурга, каждый из которых впечатлит даже самых заядлых путешественников.
+                </p>
+
+                <p class="about-section-main-text">
+                    Наш маршрут охватывает самые разнообразные дворцы. Здесь вы сможете увидеть и популярный в XVIII
+                    веке
+                    классицизм, и елизаветинское барокко, сочетающее в себе элементы ренессанса, и пришедший на смену
+                    классицизму
+                    изысканный ампир.
+                </p>
+
+                <p class="about-section-main-text">
+                    Наши дворцы расположены в порядке, в котором мы рекомендуем вам их посетить. <span
+                        class="about-section-highlight">Следование
+                        этому маршруту подарит Вам множество эмоций</span> о северной столице нашей родины.
+                </p>
+            </div>
+
+            <div class="about-section-text-decoration-line"></div>
+        </section>
+
+        <!-- Секция преимуществ -->
+        <section class="advantages-section">
+            <h2 class="section-title">Преимущества нашего сайта</h2>
+
+            <div class="advantages-container">
+                <div class="advantage-card orange">
+                    <h3 class="h-title">Актуальность</h3>
+                    <p class="advantage-text">
+                        На нашем сайте представлена самая свежая и актуальная информация о дворцах Санкт-Петербурга.
+                    </p>
+                </div>
+
+                <div class="advantage-card olive">
+                    <h3 class="h-title">Профессионализм</h3>
+                    <p class="advantage-text">
+                        Наш сайт разрабатывался любителями истории, для которых очень важна достоверность информации.
+                    </p>
+                </div>
+
+                <div class="advantage-card green">
+                    <h3 class="h-title">Проверка знаний</h3>
+                    <p class="advantage-text">
+                        Только на нашем сайте вы можете не только прочитать интересную информацию о дворцах
+                        Санкт-Петербурга, но и закрепить свои знания о них.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Маршрут -->
+        <section class="itinerary">
+            <h2 class="h-title">МАРШРУТ</h2>
+            <picture>
+                <source srcset="img/index-photo/itinerary.avif" type="image/avif">
+                <source srcset="img/index-photo/itinerary.webp" type="image/webp">
+                <img src="img/index-photo/itinerary.png" alt="Маршрут" class="itinerary-image" loading="lazy">
+            </picture>
+        </section>
+
+        <!-- Призыв к действию -->
+        <div class="cta-section">
+            <div class="cta-background"></div>
+            <div class="cta-content">
+                <p class="cta-text">Позвольте себе погрузиться в атмосферу империи.</p>
+                <p class="cta-text">Выберите дворец и сделайте первый шаг в мир роскоши и величия.</p>
+            </div>
+        </div>
+
+        <!-- Кнопка случайного дворца -->
+        <div class="random-palace-section">
+            <div class="random-palace-btn" id="random-palace-btn">
+                Случайный дворец
+            </div>
+        </div>
+        <script src="scripts/random-palace.js"></script>
+        <!-- Секция с карточками дворцов -->
+        <section class="palaces-section" id="palaces">
+            <h2 class="section-title">Дворцы Санкт-Петербурга</h2>
+
+            <div class="palaces-grid">
+                
+                <!-- Карточка 1 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">1 </div>
+                <a href="tavricheskiy.html" class="palace-card palace1">
+                    
+                    
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/tavricheskiy.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/tavricheskiy-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/tavricheskiy.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/tavricheskiy-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/tavricheskiy.jpg" srcset="img/index-photo/cards/tavricheskiy-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Таврический дворец"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Таврический дворец</h3>
+                    </div>
+                    </a>
+                    </div>
+                <!-- Карточка 2 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">2</div>
+                <a href="mihaylovskiy-zamok.html" class="palace-card palace2">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/mihaylovskiy-zamok.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/mihaylovskiy-zamok-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/mihaylovskiy-zamok.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/mihaylovskiy-zamok-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/mihaylovskiy-zamok.jpg" srcset="img/index-photo/cards/mihaylovskiy-zamok-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Михайловский замок"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Михайловский замок</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 3 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">3</div>
+                <a href="mihaylovskiy-dvorec.html" class="palace-card palace3">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/mihaylovskiy-dvorec.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/mihaylovskiy-dvorec-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/mihaylovskiy-dvorec.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/mihaylovskiy-dvorec-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/mihaylovskiy-dvorec.jpg" srcset="img/index-photo/cards/mihaylovskiy-dvorec-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Михайловский дворец"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Михайловский дворец</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 4 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">4</div>
+                <a href="anichkov.html" class="palace-card palace4">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/anichkov.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/anichkov-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/anichkov.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/anichkov-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/anichkov.jpg" srcset="img/index-photo/cards/anichkov-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Аничков дворец"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Аничков дворец</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 5 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">5</div>
+                <a href="stroganovskiy.html" class="palace-card palace5">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/stroganovskiy.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/stroganovskiy-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/stroganovskiy.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/stroganovskiy-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/stroganovskiy.jpg" srcset="img/index-photo/cards/stroganovskiy-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Строгановский дворец"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Строгановский дворец</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 6 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">6</div>
+                <a href="novo-mihaylovskiy.html" class="palace-card palace6">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/novo-mihaylovskiy.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/novo-mihaylovskiy-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/novo-mihaylovskiy.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/novo-mihaylovskiy-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/novo-mihaylovskiy.jpg" srcset="img/index-photo/cards/novo-mihaylovskiy-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Ново-Михайловский дворец"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Ново-Михайловский дворец</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 7 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">7</div>
+                <a href="zimniy.html" class="palace-card palace7">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/zimniy.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/zimniy-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/zimniy.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/zimniy-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/zimniy.jpg" srcset="img/index-photo/cards/zimniy-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Зимний дворец"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Зимний дворец</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 8 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">8</div>
+                <a href="mariinskiy.html" class="palace-card palace8">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/mariinskiy.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/mariinskiy-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/mariinskiy.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/mariinskiy-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/mariinskiy.jpg" srcset="img/index-photo/cards/mariinskiy-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Мариинский дворец"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Мариинский дворец</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 9 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">9</div>
+                <a href="petra-2.html" class="palace-card palace9">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/petra-2.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/petra-2-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/petra-2.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/petra-2-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/petra-2.jpg" srcset="img/index-photo/cards/petra-2-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Дворец Петра II"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Дворец Петра II</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 10 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">10</div>
+                <a href="elagin.html" class="palace-card palace10">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/elagin.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/elagin-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/elagin.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/elagin-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/elagin.jpg" srcset="img/index-photo/cards/elagin-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Елагин дворец"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Елагин дворец</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 11 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">11</div>
+                <a href="petergof.html" class="palace-card palace11">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/petergof.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/petergof-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/petergof.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/petergof-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/petergof.jpg" srcset="img/index-photo/cards/petergof-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Петергоф"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Петергоф</h3>
+                    </div>
+                </a>
+                </div>
+
+                <!-- Карточка 12 -->
+                 <div style="position: relative;" aria-label="Карточка и кружок">
+                    <div class="circle">12</div>
+                <a href="bolshoy-gatchinskiy.html" class="palace-card palace12">
+                    <div class="card-image-wrapper">
+                        <picture>
+                            <source srcset="img/index-photo/cards/bolshoy-gatchinskiy.avif" type="image/avif" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/bolshoy-gatchinskiy-small.avif" type="image/avif" media="(max-width: 768px)">
+                            <source srcset="img/index-photo/cards/bolshoy-gatchinskiy.webp" type="image/webp" media="(min-width: 769px)">
+                            <source srcset="img/index-photo/cards/bolshoy-gatchinskiy-small.webp" type="image/webp" media="(max-width: 768px)">
+                            <img src="img/index-photo/cards/bolshoy-gatchinskiy.jpg" srcset="img/index-photo/cards/bolshoy-gatchinskiy-small.jpg" sizes="(max-width: 768px) 420px, 100%" alt="Большой Гатчинский дворец"
+                                class="card-image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="palace-card-title">Большой Гатчинский дворец</h3>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция с тестом -->
+        <section class="test-section">
+            <div class="test-content">
+                <h2 class="test-title">Как хорошо Вы знаете дворцы Санкт-Петербурга?</h2>
+                <div class="test-cta">
+                    <span class="test-text">Пройти тест</span>
+                    <div class="test-arrow">→</div>
+                    <a href="testing.html" class="test-btn">Хочу</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+        <footer class="site-footer">
+            <div class="footer-content">
+               
+                <div class="footer-column">
+                    <a href="#palaces" class="footer-link">Дворцы</a>
+                    <a href="memo-traveler.html" class="footer-link">Памятка путешественника</a>
+                    <a href="testing.html" class="footer-link">Тест</a>
+                <a href="contacts.html" class="footer-link"> Контакты</a>
+                </div>
+                <p style="text-align: center; color: white;font-size: 18px;">© 2026 • Selurin</p>
+
+                <div class="footer-right">
+                    <h3 class="footer-title">Популярные дворцы</h3>
+                    <div class="footer-palaces">
+                        <a href="zimniy.html" class="footer-link">Зимний</a>
+                        <a href="petergof.html" class="footer-link">Петергоф</a>
+                        <a href="tavricheskiy.html" class="footer-link">Таврический</a>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+
+</body>
+
+</html>
